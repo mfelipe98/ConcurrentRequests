@@ -1,0 +1,7 @@
+Notes:
+
+ConcurrentRequestSimulationMax contains a simulation for timing a varying number of concurrent requests.
+
+Unfortunately, this is the results only for the centralized, coarse-grained approach. Initially, this simulation was designed for the decentralized, fine-grained approach, but once I gathered the necessary data for that approach, I made edits directly in this file, neglecting to preserve the code which generated DFG results.
+
+This can be run directly from ConcurrentRequestSimulationMax which will print to the output file: the number of concurrent requests, as well as the results for the average time in 30 simulations for that number of concurrent requests (as in the excel file containing the data).
